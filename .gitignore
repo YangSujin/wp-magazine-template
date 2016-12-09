@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="index">
+<meta name="keywords" content="index">
+<title>index</title>
+<!--import to library-->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+<!--공통스타일문서-->
+<link href="css/common.css" type="text/css" rel="stylesheet"/>
+<!--index스타일문서-->
+<link href="css/index_style.css" type="text/css" rel="stylesheet" />
+</head>
+<style type="text/css">
+#main1 div{position:absolute; left:0; top:0;}
+#main2 ul{ float:right;}
+#mainimg{ width: 670px; height:315px; position:relative;}
+</style>
+<body>
+
+<div id="all">
+<div id="wrap">
+<div id="mainwrap">
+<div id="headerwrap">
+	<h1 id="header_logo"><a href="index.html" alt="logo"><img src="images/logo.jpg" alt="logo" /></a></h1>
+    <div id="header_navi">
+    <ul id="h_ul">
+    <li class="last_li"><a href="#" alt="Login">Login</a></li>
+    <li><a href="#" alt="Subscribe">Subscribe</a></li>
+    <li><a href="#" alt="Contact Us">Contact Us</a></li>
+    <li><a href="#" alt="About Us">About Us</a></li>
+    <li><a href="index.html" alt="Home">Home</a></li>
+    </ul>
+    </div>
+	<div id="header_side">
+    	<div id="sns">
+        <ul id="sns_ul">
+        <li id="s1"><a href="http://twitter.com/" target="_blank" alt="twitter"><img src="images/sns_05.jpg" width="24" height="25" alt="sns1" title="sns1"/></a></li>
+        <li id="s2"><a href="http://facebook.com/" target="_blank" alt="facebook"><img src="images/sns_07.jpg" width="24" height="25" alt="sns2" title="sns2"/></a></li>
+        <li id="s3"><a href="http://postrss.com/" target="_blank" alt="feed"><img src="images/sns_09.jpg" width="24" height="25" alt="sns3" title="sns3"/></a></li>
+        <li id="s4"><a href="http://facebook.com/" target="_blank" alt="like"><img src="images/sns_11.jpg" width="74" height="25" alt="sns4" title="sns4"/></a></li>
+        <li id="s5"><a href="http://facebook.com/" target="_blank" alt="plus"><img src="images/sns_13.jpg" width="54" height="25" alt="sns5" title="sns5"/></a></li>
+        </ul>
+        </div>
+    	<div id="form">
+            <form>
+            <fieldset>
+            <legend></legend>
+            <input type="text" id="search" name="search" />
+            <input type="image" src="images/search.jpg"  id="send" name="send"/>
+            </fieldset>
+            </form>
+        </div> <!--form 종료--> 
+    </div> <!--header_side종료-->
+</div> <!--headerwrap 종료-->
+
+<div id="naviwrap">
+    <ul>
+    <li><a href="#" alt="WORLD NEWS">WORLD NEWS</a></li>
+    <li><a href="#" alt="SPORTS">SPORTS</a></li>
+    <li><a href="#" alt="TECH">TECH</a></li>
+    <li><a href="#" alt="BUSINESS">BUSINESS</a></li>
+    <li><a href="#" alt="MOVIES">MOVIES</a></li>
+    <li><a href="#" alt="ENTERTAINMENT">ENTERTAINMENT</a></li>
+    <li><a href="#" alt="CULTURE">CULTURE</a></li>
+    <li><a href="#" alt="BOOKS">BOOKS</a></li>
+    <li><a href="#" alt="CLASSIFIEDS">CLASSIFIEDS</a></li>
+    <li><a href="#" alt="BLOGS">BLOGS</a></li>
+    </ul>
+</div> <!--naviwrap 종료-->
+
+<div id="centerwrap">
+	<div id="mainimg">
+
+      <div id="main2">
+     <ul class="page">
+     <li  class="page1"><a href="#" alt="img1"><img src="images/big.jpg" width="107" height="67" alt="img1" title="img1" /></a></li>
+     <li  class="page2"><a href="#" alt="img2"><img src="images/slice_34.jpg" width="107" height="67" alt="img2" title="img2" /></a></li>
+     <li  class="page3"><a href="#" alt="img3"><img src="images/slice_36.jpg" width="107" height="67" alt="img3" title="img3" /></a></li>
+     <li id="last_li3"  class="page4"><a href="#" alt="img4"><img src="images/slice_38.jpg" width="107" height="67" alt="img4" title="img4" /></a></li>
+     </ul>
+
+     </div> <!--main2 종료-->
+ 
+     
+     <div id="main1">
+         <div class ="img1" id="img1"><a href="#" alt="main img"><img src="images/big.jpg" width="523" height="281" alt="main img" title="main img" /></a>
+             <h1>Lorem ipsum dolor sit amet, consectetur Nulla quis
+                 lorem neque, mattis venenatis lectus.</h1>
+         </div> <!--img1종료-->
+         <div class="img2"><a href="#" alt="main img2"><img src="images/slice_34.jpg" width="523" height="281" alt="main img2" title="main img2" /></a>
+     	 <h1>Lorem ipsum dolor sit amet, consectetur Nulla quis
+                 lorem neque, mattis venenatis lectus.</h1>-
+         </div> <!--img2종료-->
+         <div class="img3"><a href="#" alt="main img3"><img src="images/slice_36.jpg" width="523" height="281" alt="main img3" title="main img3" /></a>
+         <h1>Lorem ipsum dolor sit amet, consectetur Nulla quis
+                 lorem neque, mattis venenatis lectus.</h1>-
+         </div> <!--img3종료-->
+         <div class="img4"><a href="#" alt="main img4"><img src="images/slice_38.jpg" width="523" height="281" alt="main img4" title="main img4" /></a>
+         <h1>Lorem ipsum dolor sit amet, consectetur Nulla quis
+                 lorem neque, mattis venenatis lectus.</h1>
+         </div> <!--img2종료-->
+ 
+         <p id="main_p"><a href="#" alt="breaking news"><img src="images/breakingnews.jpg" width="108" height="26" alt="breaking news" title="breaking news"/></a></p>
+     </div> <!--main1 종료-->
+     
+               
+
+    
+    
+    
+    
+    
+    </div> <!--mainimg 종료-->  
+    <div id="video">
+        <div id="dlbox">
+            <dl id="v_dl1">
+            <dt><a href="#" alt="video1"><img src="images/slice_24.jpg" alt="vedio" /></a></dt>
+            <dd>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</dd>
+            <dl id="v_dl2">
+            <dt><a href="#" alt="video1"><img src="images/slice_24.jpg" alt="vedio" /></a></dt>
+            <dd>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</dd>
+            </dl>
+            <dl id="v_dl3">
+            <dt><a href="#" alt="video1"><img src="images/slice_24.jpg" alt="vedio" /></a></dt>
+            <dd>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</dd>
+            </dl>
+            <dl id="v_dl4">
+            <dt><a href="#" alt="video1"><img src="images/slice_24.jpg" alt="vedio" /></a></dt>
+            <dd>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</dd>
+            </dl> 
+        </div> <!--dlbox종료-->
+        <div id="morebox"><a href="#" alt="more"><img src="images/video_more.jpg" alt="more" /></a></div> <!--morebox종료--> 
+    
+    </div>   <!--video 종료-->
+</div> <!--centerwrap 종료-->
+
+<div id="articlewrap">
+<div id="article">
+<div id="sub_article1">
+    <div id="a1">
+    <h1><img src="images/slice_41.jpg" width="396" height="34" alt="FROM AROUND THE WORLD" title="FROM AROUND THE WORLD"/></h1>
+    <div class="a1_navi">
+        <ul>
+        <li>
+            <div class="a1_1"><a href="#" alt="more"><img src="images/slice_51.jpg" alt="img1" title="img1"/></a></div>
+            <p class="a1_2"><b>Lorem ipsum dolor sit amet, consectetur</b>  Nulla quis lorem neque</p>
+            <p class="a1_3"><span class="read"><a href="#">READ MORE</a></span></p>
+        </li>
+        <li>
+            <div class="a1_1"><a href="#" alt="more"><img src="images/slice_53.jpg" alt="img2" title="img2"/></a></div>
+            <p class="a1_2"><b>Lorem ipsum dolor sit amet, consectetur</b>  Nulla quis lorem neque</p>
+            <p class="a1_3"><span class="read"><a href="#">READ MORE</a></span></p>    
+        </li>
+        <li class="li3">
+            <div class="a1_1"><a href="#" alt="more"><img src="images/slice_55.jpg" alt="img3" title="img3"/></a></div>
+            <p class="a1_2"><b>Lorem ipsum dolor sit amet, consectetur</b>  Nulla quis lorem neque</p>
+            <p class="a1_3"><span class="read"><a href="#">READ MORE</a></span></p>  
+        </li>
+        </ul>
+    </div> <!--a1_navi-->
+    </div> <!--a1종료-->
+    
+	<div id="a2">
+    <h1><img src="images/slice_62.jpg" width="396" height="34" alt="LATEST ARTICLES" title="LATEST ARTICLES"/></h1>
+    <div class="a1_navi">
+        <ul>
+        <li>
+            <div class="a1_1"><a href="#" alt="more"><img src="images/slice_66.jpg" alt="img1" title="img1"/></a></div>
+            <p class="a1_2"><b>Lorem ipsum dolor sit amet, consectetur</b>  Nulla quis lorem neque</p>
+            <p class="a1_3"><span class="read"><a href="#" alt="more">READ MORE</a></span></p>
+        </li>
+        <li>
+            <div class="a1_1"><a href="#" alt="more"><img src="images/slice_68.jpg" alt="img2" title="img2"/></a></div>
+            <p class="a1_2"><b>Lorem ipsum dolor sit amet, consectetur</b>  Nulla quis lorem neque</p>
+            <p class="a1_3"><span class="read"><a href="#" alt="more">READ MORE</a></span></p>    
+        </li>
+        <li class="li3">
+            <div class="a1_1"><a href="#" alt="more"><img src="images/slice_70.jpg" alt="img3" title="img3"/></a></div>
+            <p class="a1_2"><b>Lorem ipsum dolor sit amet, consectetur</b>  Nulla quis lorem neque</p>
+            <p class="a1_3"><span class="read"><a href="#" alt="more">READ MORE</a></span></p>  
+        </li>
+        </ul>
+    </div> <!--a1_navi-->
+	</div> <!--a2종료-->
+	
+    <div id="a3">
+	<h1><img src="images/slice_81.jpg" width="396" height="34" alt="GALLERY" title="GALLERY"/></h1>
+	<div id="gallery_img">
+    <ul>
+ 	<li id="g1">
+    <a href="#" alt="GALLERY1"><img src="images/slice_85.jpg" width="145" height="100" alt="GALLERY1" title="GALLERY1"/></a></li>
+    <li id="g2">
+    <a href="#" alt="GALLERY2"><img src="images/slice_87.jpg" width="145" height="100" alt="GALLERY2" title="GALLERY2"/></a></li>
+    <li id="g3">
+    <a href="#" alt="GALLERY3"><img src="images/slice_89.jpg" width="145" height="100" alt="GALLERY3" title="GALLERY3"/></a></li>  
+    <li id="g4">
+    <a href="#" alt="GALLERY4"><img src="images/slice_95.jpg" width="145" height="100" alt="GALLERY4" title="GALLERY4"/></a></li>  
+    <li id="g5">
+    <a href="#" alt="GALLERY5"><img src="images/slice_97.jpg" width="145" height="100" alt="GALLERY5" title="GALLERY5"/></a></li>  
+    <li id="g6">
+    <a href="#" alt="GALLERY6"><img src="images/slice_96.jpg" width="145" height="100" alt="GALLERY6" title="GALLERY6"/></a></li>     
+
+    </ul>
+    </div>	<!--gallery_img 종료-->
+
+	</div> <!--a3종료-->
+<div id="a4">
+ <h1><img src="images/slice_102.jpg" width="396" height="34" alt="TECH NEWS" title="TECH NEWS"/></h1>
+ <div id="news">
+ <dl class="news_dl">
+ <dt class="news_dt"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b></dt>
+ <dd class="news_dd">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...<br/>
+ 					by <span class="read">John Doe</span> I 29 comments
+ </dd>
+ </dl>
+ 
+ <dl class="news_dl2">
+ <dt class="news_dt2"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b></dt>
+ <dd class="news_dd2">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...<br/>
+ 					by <span class="read">John Doe</span> I 29 comments
+ </dd>
+ </dl>
+ 
+ <dl class="news_dl3">
+ <dt class="news_dt3"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b></dt>
+ <dd class="news_dd3">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...<br/>
+ 					by <span class="read">John Doe</span> I 29 comments
+ </dd>
+ </dl>
+ 
+ <dl class="news_dl4">
+ <dt class="news_dt4"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit </b></dt>
+ <dd class="news_dd4">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor ...<br/>
+ 					by <span class="read">John Doe</span> I 29 comments
+ </dd>
+ </dl>
+
+ </div> <!--news 종료-->
+</div> <!--a4종료-->
+
+</div> <!--sub_article1 종료-->
+<div id="sub_article2">
+<div id="a5">
+    <h1><img src="images/slice_43.jpg" width="192" height="34" alt="FROM THE DESK" title="FROM THE DESK" /></h1>
+    <div id="ulbox">
+    <ul class="ul1">
+    <li><p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><br/>
+		   Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+        <p class="p2"><a href="#" alt="more">READ MORE</a></p>
+        <p class="p3">3 hours ago</p>            
+    </li>
+    <li><p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><br/>
+		   Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+        <p class="p2"><a href="#" alt="more">READ MORE</a></p>
+        <p class="p3">3 hours ago</p>            
+    </li>
+    <li><p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><br/>
+		   Nulla quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</p>
+        <p class="p2"><a href="#" alt="more">READ MORE</a></p>
+        <p class="p3">3 hours ago</p>            
+    </li>   
+    </ul>
+    <h3><a href="#" alt="more" ><img src="images/slice_46.jpg" width="61" height="19" alt="more" title="more"/></a></h3>
+    </div> <!--ulbox종료-->
+</div> <!--a5종료-->
+
+<div id="a6">
+<h1><img src="images/slice_76.jpg" width="192" height="34" alt="EDITIONAL" title="EDITIONAL" /></h1>
+<div id="dlboxx">
+<dl class="dl1">
+<dt class="dt1"><a href="#" alt="editional img1"><img src="images/a6_1.jpg" width="189" height="100" alt="editional img1" title="editional img1"/></a></dt>
+<dd class="dd1">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</dd>
+</dl>
+<dl class="dl1">
+<dt class="dt1"><a href="#" alt="editional img2"><img src="images/a6_2.jpg" width="189" height="100" alt="editional img2" title="editional img2"/></a></dt>
+<dd class="dd1">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</dd>
+</dl>
+<dl class="dl1">
+<dt class="dt1"><a href="#" alt="editional img3"><img src="images/a6_3.jpg" width="189" height="100" alt="editional img3" title="editional img3"/></a></dt>
+<dd class="dd1">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</dd>
+</dl>
+<dl class="dl1">
+<dt class="dt1"><a href="#" alt="editional img4"><img src="images/a6_4.jpg" width="189" height="100" alt="editional img4" title="editional img4"/></a></dt>
+<dd class="dd1">Lorem ipsum dolor sit amet con se cte tur adipiscing elit</dd>
+</dl>
+</div> <!--dlbox2종료-->
+</div> <!--a6종료-->
+</div> <!--sub_article2 종료-->
+</div> <!--article종료--> 
+<div id="article_ad">
+<div id="ad1"><a href="#" alt="Alberta Film"><img src="images/slice_45.jpg" width="250" height="229" alt="Alberta Film" title="Alberta Film" /></a></div> <!--ad1종료-->
+<div id="ad2">
+	<h1>SIGN UP FOR NEWSLETTER</h1>
+    <p id="ad_p1">Sign up to receive our free newsletters!</p>
+    <form>
+    <fieldset>
+    <legend class="hid">text</legend>
+    <input type="text" id="name" name="name"/> 
+    <input type="text" id="email" name="email"/> 
+    </fieldset>
+    </form>
+    <form>
+    <fieldset>
+    <legend class="hid">submit</legend>
+    <input type="submit" id="submit" name="submit" value="submit"/> 
+    </fieldset>
+    </form>
+    <p id="ad_p2">We do not spam. We value your privacy!</p>
+</div> <!--ad2종료-->
+
+<div id="ad3">
+<h1><img src="images/slice_77.jpg" width="250" height="34" alt="POPULAR" title="POPULAR" /></h1>
+<div id="ulbox2">
+<ul class="ul2">
+    <li>
+    <p class="p3"><i>Sept 24th 2011</i></p>
+    <p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><span class="more"><a href="#" alt="more">READ MORE</a></span></p>
+    </li>
+    <li>
+    <p class="p3"><i>Sept 24th 2011</i></p>
+    <p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><span class="more"><a href="#" alt="more">READ MORE</a></span></p>
+    </li>
+    <li>
+    <p class="p3"><i>Sept 24th 2011</i></p>
+    <p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><span class="more"><a href="#" alt="more">READ MORE</a></span></p>
+    </li>
+    <li>
+    <p class="p3"><i>Sept 24th 2011</i></p>
+    <p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><span class="more"><a href="#" alt="more">READ MORE</a></span></p>
+    </li>
+    <li id="last_li2">
+    <p class="p3"><i>Sept 24th 2011</i></p>
+    <p class="p1"><b>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</b><span class="more"><a href="#" alt="more">READ MORE</a></span></p>
+    </li>
+</ul>
+<h3><a href="#" alt="more" ><img src="images/slice_46.jpg" width="61" height="19" alt="more" title="more"/></a></h3>
+</div> <!--ulbox2 종료 -->
+
+</div> <!--ad3종료-->
+<div id="ad4"><a href="#" alt="save"><img src="images/slice_109.jpg" width="250" height="133" alt="save" title="save" /></a></div> <!--ad4종료-->
+</div> <!--article_ad종료--> 
+
+</div> <!--articlewrap 종료-->
+<div id="bottomwrap">
+<div id="bottom"><a href="#" alt="firehost"><img src="images/slice_116.jpg" alt="firehost"/></a></div> <!--bottom 종료-->
+</div> <!--bottomwrap 종료-->
+<div id="footerwrap">
+    <div id="footer_navi">
+   	<ul>
+    <li class="last_li"><a href="#" alt="BLOGS">Blogs</a></li>
+    <li><a href="#" alt="CLASSIFIEDS">Classifieds</a></li>
+    <li><a href="#" alt="BOOKS">Books</a></li>
+    <li><a href="#" alt="CULTURE">Culture</a></li>
+    <li><a href="#" alt="ENTERTAINMENT">Entertainment </a></li>
+    <li><a href="#" alt="MOVIES">Movies</a></li>
+    <li><a href="#" alt="BUSINESS">Business</a></li>
+    <li><a href="#" alt="TECH">Techology</a></li>
+    <li><a href="#" alt="SPORTS">Sports</a></li> 
+    <li><a href="#" alt="WORLD NEWS">World  News</a></li>
+    </ul>
+    </div> <!--footer_navi 종료-->
+    <p>Copyright © 2011 The News Reporter Inc. All rights reserved. Theme designed by GraphicsFuel.com<br/>
+	Reproduction in whole or in part in any form or medium without express written permission of The News Reporter Inc. is prohibited. 
+	The trade marks and images used in<br/>
+ 	the design are the copyright of their respective owners. They are used only for display purpose.</p>
+
+</div> <!--footerwrap 종료-->
+
+</div> <!--mainwrap 종료-->
+</div> <!--wrap 종료-->
+</div>
+<script type="text/javascript">
+$(".page1").hover(function(){
+	$(".img1").stop().fadeIn(400).siblings("#main1 div").stop().fadeOut(400)
+	})
+$(".page2").hover(function(){
+	$(".img2").stop().fadeIn(400).siblings("#main1 div").stop().fadeOut(400)
+	})
+$(".page3").hover(function(){
+	$(".img3").stop().fadeIn(400).siblings("#main1 div").stop().fadeOut(400)
+	})
+$(".page4").hover(function(){
+	$(".img4").stop().fadeIn(400).siblings("#main1 div").stop().fadeOut(400)
+	})
+</script>
+</body>
+</html>
