@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document
+모든 문서의 공통 스타일 선언하기
+common.css
+ */
+#wrap{ width:100%; height:auto; background:#FF6;}
+#headerwrap{width:100%; height:150px; background:red; float:left; background-image:url(../images/home_01.jpg);}
+#mainwrap{ width:100%; height:615px; float:left; background:blue; }
+#sectionwrap{ width:100%; height:770px; float:left; background:green; }
+#sidewrap{ width:100%; height:157px; float:left; background:pink; }
+#footerwrap{ width:100%; height:108px; float:left; background:gray; background-image:url(../images/home_13.jpg); }
+
+#header{width:942px; height:150px; margin:0 auto; background-image:url(../images/home_01.jpg);
+position:relative; }
+#main{ width:1600px; height:615px;  margin:0 auto; background:#CCC;}
+#contents{ width:942px; height:770px;  margin:0 auto; background:#0CF;}
+#side{ width:942px; height:157px;  margin:0 auto; background:#FF6;}
+#footer{ width:942px; height:108px;  margin:0 auto; background:#F9F;
+background-image:url(../images/home_13.jpg);}
+
+
+/* 크기, 포지션, 좌표지정*/
+#header #logo{ width:240px; height:76px; position:absolute;
+left:0; top:43px; }
+#header #navi{width:702px; height:34px; position:absolute;
+right:0; top:74px; ;}
+
+#navi #menu{ float:right;}
+
+#navi #menu>li { width:100px; height:34px; margin-right:5px; float:left; position:relative; }
+#navi #menu>li>a { display:block; width:100px; height:34px; float:left; text-decoration:none;
+ text-align:center; font:17px/34px Arial, Helvetica, sans-serif;
+ border-radius:5px;   color:gray; transition:all .3s;}
+#navi #menu>li>a:hover{ background-color:#e1827e; color:white; } 
+
+#navi #menu>li #sub{ width:100px; height:120px;  position:absolute;
+left:0; top:34px; }
+
+#navi #menu>li #sub>li{}
+#navi #menu>li #sub>li>a{display:block; width:100px; height:34px; float:left; text-decoration:none;
+ text-align:center; font:17px/34px Arial, Helvetica, sans-serif;
+ border-radius:5px;   color:gray; transition:all .3s;  margin-bottom:4px;
+ background-color:#FFF;}
+ 
+#navi #menu>li #sub>li>a:hover{background-color:#e1827e; color:white;}
+
+
+
+
+
+
+
+
+
